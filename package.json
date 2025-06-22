@@ -4,13 +4,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir dist || true && vite build"
-  },
+    "build": "if not exist dist mkdir dist && vite build"
+ },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@vitejs/plugin-react": "^4.5.2",
     "vite": "^6.3.5"
   }
 }
