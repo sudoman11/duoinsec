@@ -33,7 +33,7 @@
     "react-router-dom": "^7.6.2"
   },
   "engines": {
-  "node": "18.x"
+  "node": "20.x"
   }
 
 }
